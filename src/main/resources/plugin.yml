@@ -1,0 +1,16 @@
+name: ZeedJaulas
+version: '1.0.0'
+main: com.zeed.jaulas.ZeedJaulas
+api-version: '1.21'
+description: Jaulas temporarias de vidro para prender jogadores.
+author: Zeed
+
+commands:
+  jaula:
+    description: Gerencia as jaulas.
+    usage: /jaula <quadrada|redonda|remover|reload>
+
+permissions:
+  zeedjaulas.admin:
+    description: Permite pegar jaulas, remover jaulas e recarregar a config.
+    default: op
